@@ -1,0 +1,357 @@
+.width-max {
+    width: 1200px;
+   max-width: 100%;
+   margin:auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {    
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+.header-size {
+    height: auto;
+}
+.header-img {
+        width:600px;
+        height:auto;
+        position: relative;
+    }
+.header-img {
+        width:100%;
+        height:auto;
+     }
+h1 {
+    position: absolute;
+    width: 600px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:0;
+    margin:0;
+    font-size:45px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+    -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+    0px 1px 0 #FFF,  0-1px 0 #FFF,
+    -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+/* header-imgの上記で文字を中央にしている */
+footer {
+    display: flex;
+    width: 100%;
+    height: 100 px;
+    background-color: hsl(0, 8%, 7%);
+    text-align: right;
+    position: relative;
+}
+
+a{
+    color: white;
+}
+a:visited{
+    color:antiquewhite;
+}
+.kanban{
+margin-top: 10px;
+right: 30%;
+height: 80px;
+position: absolute;
+}
+.footer-body {
+    width: 100%;
+    height: 100px;
+    background-color: hsl(0, 8%, 7%);
+    color: rgb(244, 244, 244);
+    text-align: right;
+    position: relative;
+    margin-right: 10px;
+}   
+ul.footer-menu li{
+   display: inline;
+   text-decoration: underline;
+   height: 100px;
+   line-height: 100px;
+   margin: 10px;
+}
+
+.footer-text{
+    font-size: 24px; font: bold; margin-top: 60px; margin-bottom :30px;color: rgb(255, 175, 26);text-align: center;
+}
+
+.img-line4 {
+    max-width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+.img-line4 img {
+    max-height: 200px;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+.about-em {
+width: 1100px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+font-size: 24px;
+font: bold;
+line-height: 30px; 
+margin-bottom: 60px;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: blanchedalmond;
+display: flex
+;
+
+}
+.about-em2 {
+    text-decoration: underline; 
+}
+
+.features-imgall {
+    width: 450px;
+    height: 300px;
+    text-align: center;
+}
+.features-img1 {
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly 30px;  
+    align-items: center;
+}
+.features-img2 {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly 30px;  
+    align-items: center;
+}
+.features-img3 {
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly 30px;  
+    align-items: center;
+}
+.youtube-line {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    justify-content:space-evenly;
+    
+}
+.youtube-word {
+    list-style: none;
+}
+.featured-img4 {
+    margin-top: 60px;
+    width: 450px;
+    height: 300px;
+}
+.featured-point {
+    font: bold;
+    margin-top: 120px;
+    margin-block-start: 40px;
+}
+
+.list-nonstyle {
+    font-size: 15px;
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 600px;
+}
+
+.list-nonstyle2{
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.menu-title-color{
+    font: bold;
+    background-color: bisque;
+}
+
+table {
+ width:500px;    
+ margin-right: auto;
+ margin-left: auto;
+}
+
+
+.menu-line {
+    display: flex; 
+    margin-bottom: 60px;
+}
+
+.menu-img { 
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content:space-between;
+    }
+.img-type1{
+    list-style: none;
+}
+.img-type2{
+    list-style: none;
+}
+
+.img-1 {
+    max-width: 100%;
+    width: 300px;
+    height: 220px;    
+ }
+
+.sub-jp{
+    font-size:small;color: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1em;
+    font: bold
+}
+.news-contents {
+    width:300px;
+    margin: 30px;
+    list-style: none;
+}
+
+.news-contents img{
+    max-width: 100%;
+    max-height: 200px;
+    display: flex;
+}
+.news-contents{
+    display: flex    ;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 900px;
+    justify-content: space-around;
+    height: 60px;
+    margin-bottom: 300px
+    ;
+}
+
+.moreinfo {
+    margin: 60px;
+
+}
+.more-info-space {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    margin-top: 30px;
+    width: 330px;
+    justify-content: space-around;
+}
+.iframe{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+form {
+    width:  600px;/*横幅*/
+    margin: 0 auto;/*中央寄せ*/
+    padding: 60px 0;
+    
+}
+.contact-table {
+    width: 100%;
+    margin-bottom: 20px;
+  
+}
+
+.form-required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+    color: red;
+    padding: 20px;
+}
+
+.form-label {
+    border: 2px solid #ccc;
+    text-align: left; /* テキスト左寄せ */
+    width: 30%; /* 横幅15%指定（グレーの背景色部分） */
+    background-color: #eee; /* グレーの背景色 */
+
+}
+.form-input {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 40%; /* 横幅40%指定（白背景色部分） */
+    text-align: left; /* テキスト左寄せ */
+    
+
+}
+.form-input2 {
+    border: 1px solid #ccc;
+    width: 40%; /* 横幅40%指定（白背景色部分） */
+    text-align: left; /* テキスト左寄せ */
+}   
+
+.checkbox {
+    list-style: none;
+    }
+.checkbox-word {
+    margin-bottom: 24px;
+    height: 7px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1.5px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.submit {
+    width: 250px; /* 横幅指定 */
+    background-color: #333; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-weight: bold; /* 文字の太さ */
+    display: block; /* インライン要素をブロック要素に変更 */
+    margin: 0 auto; /* 中央寄せ */
+    font-size: 16px; /* 文字の大きさ */
+    padding: 15px; /* 内側の余白 */
+    border-radius: 100vh; /* 角丸指定 */
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    background-image:linear-gradient(0deg, #484d4d, #f6f7f8);
+    top: 100px;
+}
+
+.copyrights {
+font-size: 15px;
+text-align: center; 
+background-color: #707070;
+color: white;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
